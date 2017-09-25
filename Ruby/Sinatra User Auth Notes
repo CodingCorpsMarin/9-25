@@ -1,0 +1,22 @@
+
+Competencies
+
+User authentication is a vital feature of applications
+Websites use session cookies to track your progress on the server so it knows what to do next
+We can use session cookies to get our application to remember a user so it can display user-specific 
+information/restricted data, etc
+User authentication can be as easy as matching a password to a stored string, but that invites a huge security vulnerability
+Most web frameworks do not have built-in encryption, but there are many libraries and packages that will easily 
+encrypt passwords for you. Ruby has a gem for encryption called BCrypt
+With encryption, passwords are converted into nonsense hashes that are not reversible so hackers have a much harder 
+time figuring out passwords and matching them with users
+
+Applications
+Integrate web apps with user auth
+Use user sessions to restrict access to certain pages 
+
+
+
+
+
+https://github.com/codahale/bcrypt-ruby
